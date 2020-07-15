@@ -1253,7 +1253,6 @@ type VirtualMachineInstanceGuestOSUserList struct {
 // VirtualMachineGuestOSUser is the single user of the guest os
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
-// +genclient
 type VirtualMachineInstanceGuestOSUser struct {
 	UserName  string  `json:"userName"`
 	Domain    string  `json:"domain,omitempty"`
